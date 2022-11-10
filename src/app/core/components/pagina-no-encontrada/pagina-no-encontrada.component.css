@@ -1,0 +1,20 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main';
+}
+.grid-header{
+    grid-area: header;
+}
+.grid-menu{
+    grid-area: menu;
+}
+.grid-content{
+    grid-area: main;
+}
+.title-404{
+    text-align: center;
+    margin-top: 100px;
+}
+
